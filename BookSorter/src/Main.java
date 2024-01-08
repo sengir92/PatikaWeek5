@@ -47,6 +47,5 @@ public class Main {
         for (Book b : booksPage) {
             System.out.println(b.getPageNumber());
         }
-
     }
 }

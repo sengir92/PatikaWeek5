@@ -5,7 +5,7 @@ public class Book implements Comparator<Book> {
     // Override compare method
     @Override
     public int compare(Book b1, Book b2) {
-        return 0;
+        return b1.getBookName().compareTo(b2.getBookName());
     }
 
     private String bookName;
